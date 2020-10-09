@@ -1,0 +1,28 @@
+// --------------------------------------------------
+// Generic Reset
+// --------------------------------------------------
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: 'JetMono';
+  src:  url('../../css/font/JetBrainsMono-Regular.woff') format('woff'),
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'scroll-behavior: smooth' /* actual fonts */;
+}
+
+body {
+  color: $color-black;
+  font-family: $body-font;
+}
