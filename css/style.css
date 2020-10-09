@@ -16,7 +16,7 @@ html {
   font-family: "scroll-behavior: smooth"; }
 
 body {
-  color: #020202;
+  color: linear-gradient(#360033, #2e295c, #014a7b, #00698c, #0b8793);
   font-family: "Roboto", sans-serif; }
 
 h1 {
@@ -156,7 +156,7 @@ ol {
   position: sticky;
   top: 0;
   height: 8rem;
-  background-color: #020202;
+  background: linear-gradient(to left bottom, #360033, #2e295c, #014a7b, #00698c, #0b8793);
   border-bottom: 1px solid #262626; }
 
 .logo {
@@ -287,7 +287,7 @@ ol {
 .header {
   padding-top: 8rem;
   padding-bottom: 15rem;
-  background-color: #020202; }
+  background: linear-gradient(to left bottom, #360033, #2e295c, #014a7b, #00698c, #0b8793); }
   @media only screen and (min-width: 48.1em) {
     .header {
       padding-top: 12rem;
