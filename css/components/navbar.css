@@ -1,4 +1,4 @@
- nav {
+  nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -17,21 +17,18 @@ nav.white {
 }
 
 nav .logo {
-  color: white;
   float: left;
   padding-left: 40px
 }
 
 nav .logo img {
-  color: white;
   transition: .5S;
-  height: 104px;
-  margin-top: -30px;
+  height: 60px;
+  padding-top: 5px;
 
 }
 
 nav.white .logo img {
-  color: white;
   transition: .5S;
   height: 50px;
   padding-top: 5px;
@@ -135,7 +132,6 @@ nav.white ul li a:hover {
   }
 
   .responsive-bar .logo img {
-     color: white;
      float: left;
      height: 60px;
   }
