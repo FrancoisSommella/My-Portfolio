@@ -12,6 +12,8 @@
   padding-bottom: 20px;
   line-height: 2;
   margin-left: 149px;
+  font-weight: lighter;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
 
 .about-cont {
